@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +11,21 @@
   box-sizing: inherit;
 }
 
+:root {
+  --color-red: #fc4747;
+  --color-dark-blue: #10141e;
+  --color-greyish-blue: #5a698f;
+  --color-dark-blue: #161d2f;
+  --color-pure-white: #fff;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
 
 body {
+  font-family: "Outfit", sans-serif;
   line-height: 1.5;
   min-height: 100vh;
 }
