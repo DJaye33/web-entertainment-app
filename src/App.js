@@ -1,10 +1,11 @@
-import './App.scss';
+import MainContainer from "./containers/MainContainer/MainContainer";
+import Nav from "./components/Nav/Nav";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello from App!</h1>
-    </div>
+    <MainContainer>
+      <Nav />
+    </MainContainer>
   );
 }
 

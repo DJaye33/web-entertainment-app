@@ -15,7 +15,7 @@
   --color-red: #fc4747;
   --color-dark-blue: #10141e;
   --color-greyish-blue: #5a698f;
-  --color-dark-blue: #161d2f;
+  --color-semi-dark-blue: #161d2f;
   --color-pure-white: #fff;
 }
 
@@ -41,6 +41,10 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+ul {
+  list-style-type: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
