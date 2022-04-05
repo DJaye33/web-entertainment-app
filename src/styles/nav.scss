@@ -1,4 +1,46 @@
 .Nav {
-    background-color: var(--color-semi-dark-blue);
-    padding: 2rem 1.6rem;
+  background-color: var(--color-semi-dark-blue);
+  padding: 2rem 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    width: 71.9rem;
+    margin: 2.3rem auto;
+    border-radius: 1rem;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    width: 13.35rem;
+
+    @media (min-width: 768px) {
+      width: 17.3rem;
+    }
+
+    & a.active svg path {
+      fill: var(--color-red);
+    }
+
+    // prevents hover effect on active link
+    & a.active:hover svg path {
+      fill: var(--color-red);
+    }
+
+    & a:hover svg path {
+      fill: var(--color-pure-white);
+    }
+  }
+
+  &__avatar {
+    height: 2.4rem;
+    border: 0.1rem solid var(--color-pure-white);
+    border-radius: 50%;
+
+    @media (min-width: 768px) {
+      height: 3.2rem;
+    }
+  }
 }

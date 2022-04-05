@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-const MainContainer = ({children}) => {
-  return (
-    <div>
-        {children}
-    </div>
-  )
-}
+import "../../styles/MainContainer.scss";
 
-export default MainContainer
+const MainContainer = ({ children }) => {
+  return <div className="MainContainer">{children}</div>;
+};
+
+export default MainContainer;
